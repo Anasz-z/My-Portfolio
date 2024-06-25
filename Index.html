@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+     <nav id="desktop-nav">
+        <div class="logo">Mohammed Anas</div>
+        <div>
+            <ul class="nav-links">
+                <li> <a href="#about">About</a></li>
+                <li> <a href="#experience">Experience</a></li>
+                <li> <a href="#projects">Projects</a></li>
+                <li> <a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+     </nav>
+     <nav id="hamburger-nav">
+        <div class="logo">Mohammed Anas</div>
+        <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+        <div class="menu-links">
+            <li> <a href="#about" onclick="toggleMenu()">About</a></li>
+            <li> <a href="#experince" onclick="toggleMenu()">Experience</a></li>
+            <li> <a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li> <a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+     </nav>
+     <section id="profile">
+        <div class="section__pic-container">
+            <img src="./Assets/profile-pic. png" alt="Mohammed Anas Profile Picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello I'm</p>
+            <h1 class="title">Mohammed Anas</h1>
+            <p class="section__text__p2">Website Developer and Digital Marketer</p>
+        <div class="btn-container">
+            <button 
+            class="btn btn-color-2"
+            onclick="window.open('./Assets/resume.pdf')"> 
+            Download CV
+        </button>
+        <button 
+            class="btn btn-color-1"
+            onclick="location.href='./#contact'">
+            Contact Info
+        </button>
+        </div>
+        <div id="socials-container">
+            <img 
+            src="./Assets/linkedin.png" 
+            alt="LinkedIn Profile"
+            class="icon" 
+            onclick="location.href='https://linkedin.com/'">
+        </div>
+        </div>
+     </section>
+     <section id="about">
+        <p class="section__text__p1">Get To Know Me</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+        <div class="section__pic-container">
+            <img 
+            src="/Assets/about-pic. png" 
+            alt="Profile Pic"
+            class="about-pic"/>
+        </div>
+        <div class="about-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <img src="/Assets/experience.png" 
+                    alt="Experience icon"
+                    class="icon"/>
+                    <h3>Experience</h3>
+                    <p>2+ Years <br>Website Development and Digital Marketing</p>
+                </div>
+                <div class="details-container">
+                    <img src="/Assets/education.png" 
+                    alt="Education icon"
+                    class="icon"/>
+                    <h3>Education</h3>
+                    <p>I.T Bachelors Degree</p> 
+                </div>
+            </div>
+            <div class="text-container">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum ullam perferendis doloribus harum. Reprehenderit aliquam, repudiandae unde exercitationem excepturi neque voluptatibus saepe magni dolores deleniti vero cupiditate commodi iure asperiores.
+                </p>
+            </div>
+        </div>
+        </div>
+        <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrow"
+        onclick="location.href='./#experience'">
+     </section>
+     <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Website Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Assets/checkmark.png" 
+                            alt="Experience Icon" 
+                            class="icon"/>
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" 
+                            alt="Experience Icon" 
+                            class="icon"/>
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" 
+                            alt="Experience Icon" 
+                            class="icon"/>
+                            <div>
+                                <h3>Java Script</h3>
+                                <p>Beginer</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" 
+                            alt="Experience Icon" 
+                            class="icon"/>
+                            <div>
+                                <h3>Wordpress</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" 
+                            alt="Experience Icon" 
+                            class="icon"/>
+                            <div>
+                                <h3>Woo Commerce</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" 
+                            alt="Experience Icon" 
+                            class="icon"/>
+                            <div>
+                                <h3>Django</h3>
+                                <p>Beginer</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Digital Marketing</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Assets/checkmark.png" 
+                            alt="Experience Icon" 
+                            class="icon"/>
+                            <div>
+                                <h3>Meta Ads</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" 
+                            alt="Experience Icon" 
+                            class="icon"/>
+                            <div>
+                                <h3>Google Ads</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" 
+                            alt="Experience Icon" 
+                            class="icon"/>
+                            <div>
+                                <h3>SMM</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" 
+                            alt="Experience Icon" 
+                            class="icon"/>
+                            <div>
+                                <h3>SEO</h3>
+                                <p>Beginer</p>
+                            </div>
+                        </article>
+                        <!-- <article>
+                            <img src="./Assets/checkmark.png" 
+                            alt="Experience Icon" 
+                            class="icon"/>
+                            <div>
+                                <h3>Woo Commerce</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" 
+                            alt="Experience Icon" 
+                            class="icon"/>
+                            <div>
+                                <h3>Django</h3>
+                                <p>Beginer</p>
+                            </div>
+                        </article> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrow2"
+        onclick="location.href='./#projects'">
+     </section>
+     <!-- <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                    src="./Assets/project-1.png" 
+                    alt="project-1"
+                    class="project-img"
+                    />
+                </div>
+            </div>
+        </div>
+     </section> -->
+
+     <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">My Projects</h1>
+        <div class="projects-container">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <a href="https://alosmanacademy.com" target="_blank">
+                <img src="./Assets/Al-Osman website.png" alt="Project 1" class="project-image"></a>
+                <p class="project-title"><a href="https://alosmanacademy.com/" target="_blank">Al-Osman Academy</a></p>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+                <a href="https://bdcs.ae" target="_blank">
+                <img src="./Assets/BDCS Website.png" alt="Project 2" class="project-image"></a>
+                <p class="project-title"><a href="https://bdcs.ae" target="_blank"></a>Business Diaries</p>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card">
+                <a href="https://mscapital.ae" target="_blank">
+                <img src="./Assets/MS Capital Website.png" alt="Project 3" class="project-image"></a>
+                <p class="project-title"><a href="https://mscapital.ae" target="_blank"></a>MS Capital Real Estate</p>
+            </div>
+            <!-- Project 4 -->
+            <div class="project-card">
+                <a href="https://websync.ae" target="_blank">
+                <img src="./Assets/Websync Website.png" alt="Project 4" class="project-image"></a>
+                <p class="project-title"><a href="https://websync.ae" target="_blank"></a>Websync</p>
+            </div>
+            <!-- Project 5 -->
+            <div class="project-card">
+                <a href="https://rayantours.ae/" target="_blank">
+                <img src="./Assets/Rayan Tours Website.png" alt="Project 5" class="project-image"></a>
+                <p class="project-title"><a href="https://rayantours.ae/" target="_blank"></a>Rayan Tours</p>
+            </div>
+        </div>
+        <button class="scroll-button left-button">❮</button>
+        <button class="scroll-button right-button">❯</button>
+        <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrowp"
+        onclick="location.href='./#contact'">
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img 
+                src="./Assets/email.png" 
+                alt="Email"
+                class="icon contact-icon"
+                />
+                <p><a href="mailto:xd.anasz@gmail.com">xd.anasz@gmail.com</a></p>
+            </div>
+                <div class="contact-info-container">
+                    <img 
+                    src="./Assets/linkedin.png" 
+                    alt="LinkedIn"
+                    class="icon contact-icon"
+                    />
+                    <p><a href="https://www.linkedin.com/in/mohammed-anas-aa656223a/" target="_blank">LinkedIn</a></p>
+                </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#experience">Experience</a></li>
+                    <li> <a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Mohammed Anas. All Rights Reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
