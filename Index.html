@@ -34,14 +34,39 @@
             <li> <a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
      </nav>
-     <section id="profile">
-        <!-- <div class="section__pic-container">
+     <!-- Include the particles.js library -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+<section id="profile">
+    <!-- particles.js container -->
+    <div id="particles-js"></div>
+    
+    <div class="section__text">
+        <p class="section__text__p1">Hello I'm</p>
+        <h1 class="title">Mohammed Anas</h1>
+        <p class="section__text__p2 typing-text">And I'm a <span class="text-content"></span><span class="cursor">|</span></p>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('./Assets/resume.pdf')">Download CV</button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+        </div>
+    </div>
+</section>
+
+<!-- Initialize particles.js -->
+<script>
+    particlesJS.load('particles-js', 'particles.json', function() {
+        console.log('particles.js loaded - callback');
+    });
+</script>
+
+     <!-- <section id="profile">
+        <div class="section__pic-container">
             <img src="./Assets/profile-pic. png" alt="Mohammed Anas Profile Picture">
-        </div> -->
+        </div>
         <div class="section__text">
             <p class="section__text__p1">Hello I'm</p>
             <h1 class="title">Mohammed Anas</h1>
-            <p class="section__text__p2">Website Developer and Digital Marketer</p>
+            <p class="section__text__p2 typing-text">And I'm a <span class="text-content"></span><span class="cursor">|</span></p>
         <div class="btn-container">
             <button 
             class="btn btn-color-2"
@@ -62,14 +87,14 @@
             onclick="location.href='https://linkedin.com/'">
         </div>
         </div>
-     </section>
+     </section> -->
      <section id="about">
         <p class="section__text__p1">Get To Know Me</p>
         <h1 class="title">About Me</h1>
         <div class="section-container">
         <div class="section__pic-container">
             <img 
-            src="/Assets/about-pic. png" 
+            src="/Assets/Wee.png" 
             alt="Profile Pic"
             class="about-pic"/>
         </div>
@@ -91,7 +116,7 @@
                 </div>
             </div>
             <div class="text-container">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum ullam perferendis doloribus harum. Reprehenderit aliquam, repudiandae unde exercitationem excepturi neque voluptatibus saepe magni dolores deleniti vero cupiditate commodi iure asperiores.
+                <p>Welcome to my professional space! I’m Mohammed Anas.I specialize in web development, digital marketing, and social media management. Over the past two years, I've gained valuable experience working both as a freelancer and an IT administrator. My practical skills include building user-friendly websites and creating effective online marketing campaigns that help businesses grow. I'm passionate about using technology to solve problems and enhance the online presence of my clients.
                 </p>
             </div>
         </div>
@@ -148,8 +173,8 @@
                             alt="Experience Icon" 
                             class="icon"/>
                             <div>
-                                <h3>Woo Commerce</h3>
-                                <p>Experienced</p>
+                                <h3>Django</h3>
+                                <p>Beginer</p>
                             </div>
                         </article>
                         <article>
@@ -157,10 +182,11 @@
                             alt="Experience Icon" 
                             class="icon"/>
                             <div>
-                                <h3>Django</h3>
-                                <p>Beginer</p>
+                                <h3>Woo Commerce</h3>
+                                <p>Experienced</p>
                             </div>
                         </article>
+                        
                     </div>
                 </div>
                 <div class="details-container">
@@ -227,23 +253,7 @@
         <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrow2"
         onclick="location.href='./#projects'">
      </section>
-     <!-- <section id="projects">
-        <p class="section__text__p1">Browse My Recent</p>
-        <h1 class="title">Projects</h1>
-        <div class="experience-details-container">
-            <div class="details-container color-container">
-                <div class="article-container">
-                    <img 
-                    src="./Assets/project-1.png" 
-                    alt="project-1"
-                    class="project-img"
-                    />
-                </div>
-            </div>
-        </div>
-     </section> -->
-
-     <section id="projects">
+    <section id="projects">
         <p class="section__text__p1">Browse My Recent</p>
         <h1 class="title">My Projects</h1>
         <div class="projects-container">

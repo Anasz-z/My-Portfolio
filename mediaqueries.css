@@ -49,21 +49,32 @@
     footer{
         height: 40vh;
     }
+    #hamburger-nav {
+        height: 5vh;
+    }
     #profile {
-        height: 83vh;
+        height: 50vh;
         margin-bottom: 0;
         }
     article {
         font-size: 1rem;
     }
+    .section__text {
+        margin-top: 20vh;
+    }
     footer nav {
         height: fit-content;
         margin-bottom: 2rem;
+    }
+
+    #particles-js {
+        display:none;
     }
     .about-contaniers
     .contact-info-upper-container
     .btn-container {
         flex-wrap: wrap;
+        flex-direction: column;
     }
     .contact-info-container {
         margin: 0;
@@ -103,4 +114,18 @@
     .project-image {
         width: 200px
     }
+    .experience-details-container {
+        flex-direction: column;
+    }
+    .contact-info-upper-container {
+        flex-direction: column;
+    }
+}
+
+/* Float */
+@keyframes float {
+    0%, 100% { transform: translate(0, 0); }
+    25% { transform: translate(5px, -5px); }
+    50% { transform: translate(-5px, -10px); }
+    75% { transform: translate(5px, 10px); }
 }
