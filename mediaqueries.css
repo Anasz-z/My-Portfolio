@@ -3,7 +3,7 @@
         height: 83vh;
         margin-bottom: 6rem;
     }
-    .about-contaniers {
+    .about-containers {
         flex-wrap: wrap;
     }
     
@@ -38,7 +38,7 @@
         height: 275px;
         margin: 0 auto 2rem;
     }
-    .about-contaniers {
+    .about-containers {
         margin-top: 0;
     }
 
@@ -70,11 +70,12 @@
     #particles-js {
         display:none;
     }
-    .about-contaniers
+    .about-containers
     .contact-info-upper-container
     .btn-container {
         flex-wrap: wrap;
         flex-direction: column;
+        display: flex;
     }
     .contact-info-container {
         margin: 0;

@@ -343,7 +343,7 @@ canvas{
 
  .about-pic {
     display: block;  /* Ensures the image takes the full container width */
-    
+    z-index: -1;
     transition: transform 0.3s ease-in-out;
     will-change: transform;
     position: relative; /* Allows movement relative to its normal position */
