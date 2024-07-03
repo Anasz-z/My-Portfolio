@@ -121,6 +121,12 @@
     .contact-info-upper-container {
         flex-direction: column;
     }
+    .arrow2 {
+        display: none;
+    }
+    .arrowp {
+        display: none;
+    }
 }
 
 /* Float */
