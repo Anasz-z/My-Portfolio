@@ -284,6 +284,7 @@ canvas{
     width: 8rem;
     padding: 1rem;
     border-radius: 2rem;
+    z-index: 2;
  }
 
  .btn-color-1, 
